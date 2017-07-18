@@ -1,6 +1,6 @@
 # RSScrollMenuView
 
-![](https://img.shields.io/badge/platform-iOS-red.svg) ![](https://img.shields.io/badge/language-Objective--C-orange.svg) ![](https://img.shields.io/badge/download-2.2MB-brightgreen.svg
+![](https://img.shields.io/badge/platform-iOS-red.svg) ![](https://img.shields.io/badge/language-Swift-orange.svg) ![](https://img.shields.io/badge/download-2.2MB-brightgreen.svg
 ) ![](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg) 
 
 类似网易新闻客户端的滑动标签页功能，支持添加、删除、排序分类，基于Swift3.实现。
