@@ -48,7 +48,7 @@ class RSThemeCollectionViewCell: UICollectionViewCell {
         self.contentView.addSubview(editButton)
     }
     
-    func tapButton(sender: UIButton) {
+    @objc func tapButton(sender: UIButton) {
         if self.tapButtonClosure != nil {
             self.tapButtonClosure(self)
         }

@@ -110,7 +110,7 @@ class RSMenuView: UIView, UICollectionViewDataSource {
     /// 点击加号按钮所执行的方法
     ///
     /// - Parameter sender: 添加按钮对象
-    func showSelectMenu(sender: UIButton) {
+    @objc func showSelectMenu(sender: UIButton) {
         if self.tapSelectThemeClosure != nil {
             self.tapSelectThemeClosure()
         }

@@ -59,7 +59,7 @@ class RSThemeCollectionView: UICollectionView, UICollectionViewDelegate, UIColle
     /// 长按手势所触发的方法
     ///
     /// - Parameter gestureRecognizer: <#gestureRecognizer description#>
-    func longPrese(gestureRecognizer: UILongPressGestureRecognizer) {
+    @objc func longPrese(gestureRecognizer: UILongPressGestureRecognizer) {
         
         let point = gestureRecognizer.location(in: self)
         

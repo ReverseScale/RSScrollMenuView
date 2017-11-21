@@ -35,7 +35,7 @@ class MeteData: RSThemeDataSourceProtocal {
     func calculateContentWidth(contentText: String) -> CGFloat {
         let maxLabelSize: CGSize = CGSize(width: 1000, height: 0)
         let contentNSString = contentText as NSString
-        let rect = contentNSString.boundingRect(with: maxLabelSize, options: .usesLineFragmentOrigin, attributes: [NSFontAttributeName : UIFont.systemFont(ofSize: 15)], context: nil)
+        let rect = contentNSString.boundingRect(with: maxLabelSize, options: .usesLineFragmentOrigin, attributes: [NSAttributedStringKey.font : UIFont.systemFont(ofSize: 15)], context: nil)
         return rect.size.width
 
     }

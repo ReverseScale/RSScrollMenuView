@@ -40,7 +40,7 @@ class RSFirstHeaderCollectionReusableView: RSHeaderCollectionReusableView {
     }
     
     //MARK:- Event Response
-    func tapEditButton(sender: RSThemeEditButton) {
+    @objc func tapEditButton(sender: RSThemeEditButton) {
         editButton.isSelected = !editButton.isSelected
         detailLabel.isHidden = !editButton.isSelected
         print(editButton.isSelected)

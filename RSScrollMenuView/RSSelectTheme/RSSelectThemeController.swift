@@ -58,7 +58,7 @@ class RSSelectThemeController: UIViewController, UICollectionViewDataSource{
     
     // MARK: - Event Response
     
-    func tapCloseButton(sender: UIButton) {
+    @objc func tapCloseButton(sender: UIButton) {
         if self.dataSource[0].count == 0 {
             self.showAlertView()
             return

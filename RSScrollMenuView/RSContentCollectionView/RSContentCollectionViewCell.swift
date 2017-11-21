@@ -42,7 +42,7 @@ class RSContentCollectionViewCell: UICollectionViewCell {
         self.backButton.addTarget(self, action: #selector(self.backAction), for: .touchUpInside)
         self.contentView.addSubview(backButton)
     }
-    func backAction() {
+    @objc func backAction() {
         if callBack != nil {
             callBack!()
         }
