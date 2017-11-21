@@ -19,6 +19,7 @@
 ## Requirements 要求
 * iOS 7+
 * Xcode 8+
+* Swift 4.0
 
 
 ## Hiberarchy 层级关系
