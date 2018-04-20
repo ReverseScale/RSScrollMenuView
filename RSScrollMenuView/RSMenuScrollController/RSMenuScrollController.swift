@@ -33,7 +33,7 @@ class RSMenuScrollController: UIViewController, UICollectionViewDataSource {
     
     /// 添加菜单View
     private func addMenuView() {
-        self.menuView = RSMenuView(dataSource: self.dataSource, frame: CGRect(x: 0, y: 20, width: SCREEN_WIDTH, height: 45))
+        self.menuView = RSMenuView(dataSource: self.dataSource, frame: CGRect(x: 0, y: 40, width: SCREEN_WIDTH, height: 45))
         weak var weak_self = self
         self.menuView.setTapSelectThemeClosure {
             weak_self?.presentRSSelectThemeController()
